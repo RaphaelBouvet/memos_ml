@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-05-31T13:25:00.870Z" agent="5.0 (X11)" version="18.0.2" etag="bQKmvZLIbvr4CyZ_bEXA" type="github"><diagram id="wHCk0J4Vdh2r7a8T-UGe">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-31T13:44:38.144Z" agent="5.0 (X11)" etag="FHjFr5vJVcKHIqjfMDAL" version="18.0.2" type="github">
+  <diagram id="wHCk0J4Vdh2r7a8T-UGe" name="Page-1">
+    <mxGraphModel dx="1422" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CHxfokC2oCKXQVqZqF76-1" value="Classification metrics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CHxfokC2oCKXQVqZqF76-2" value="&lt;h2 id=&quot;1&quot;&gt;Accuracy&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CHxfokC2oCKXQVqZqF76-3" value="&lt;h2 id=&quot;2&quot;&gt;F1 score&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CHxfokC2oCKXQVqZqF76-4" value="&lt;h2 id=&quot;3&quot;&gt;ROC AUC&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CHxfokC2oCKXQVqZqF76-5" value="&lt;h2 id=&quot;4&quot;&gt;PR AUC | Average Precision&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CHxfokC2oCKXQVqZqF76-6" value="&lt;div&gt;balanced&lt;br&gt;&lt;/div&gt;&lt;div&gt;care about both positive and negative pred&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
