@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T10:34:21.838Z" agent="5.0 (X11)" etag="aN0wLHBRtvkwGaeKpc8H" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T10:38:54.307Z" agent="5.0 (X11)" etag="v9f0T7Zn7ltH7H-aanoA" version="19.0.1" type="github">
   <diagram id="Ifd1fey-pzOI2ogyzoYs" name="Page-1">
-    <mxGraphModel dx="1237" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2585" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -261,18 +261,15 @@
         <mxCell id="txdgA5f74LdxBnswrlZj-119" value="Repeat until n_clusters choosen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1500" y="297.5" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="txdgA5f74LdxBnswrlZj-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="txdgA5f74LdxBnswrlZj-120" target="txdgA5f74LdxBnswrlZj-121">
+        <mxCell id="txdgA5f74LdxBnswrlZj-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="1" source="txdgA5f74LdxBnswrlZj-120" target="txdgA5f74LdxBnswrlZj-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="txdgA5f74LdxBnswrlZj-120" value="Probability distribution calculations" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1015" y="490" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="txdgA5f74LdxBnswrlZj-121" value="" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1015" y="630" width="210" height="60" as="geometry" />
+          <mxGeometry x="860" y="510" width="210" height="60" as="geometry" />
         </mxCell>
         <UserObject label="Kmeans ++ The Advantages of Careful Seeding" link="https://theory.stanford.edu/~sergei/papers/kMeansPP-soda.pdf" linkTarget="_blank" id="txdgA5f74LdxBnswrlZj-127">
           <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;strokeColor=default;" vertex="1" parent="1">
-            <mxGeometry x="1250" y="490" width="120" height="60" as="geometry" />
+            <mxGeometry x="1095" y="510" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
