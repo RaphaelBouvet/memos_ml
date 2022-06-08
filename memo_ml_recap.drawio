@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T10:17:21.643Z" agent="5.0 (X11)" etag="lxb2zrxW4Lo5AISFX80l" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T10:20:49.734Z" agent="5.0 (X11)" etag="RsZRQZ0xEDc7c96E_UiT" version="19.0.2" type="github">
   <diagram id="t-oJXe_NNOPs2yRI83mc" name="Page-1">
-    <mxGraphModel dx="2858" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3412" dy="1491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,7 +105,7 @@
         <mxCell id="vTsSiwtrTpE9aTX-kytd-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-44" target="vTsSiwtrTpE9aTX-kytd-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vTsSiwtrTpE9aTX-kytd-44" value="Dimensionality reduction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-44" value="Dimensionality reduction" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="365" y="1060" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-48" target="vTsSiwtrTpE9aTX-kytd-23">
@@ -132,12 +132,6 @@
         <mxCell id="vTsSiwtrTpE9aTX-kytd-60" value="&lt;div&gt;gain insight on the data set&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-252.5" y="692.25" width="185" height="64.5" as="geometry" />
         </mxCell>
-        <mxCell id="vTsSiwtrTpE9aTX-kytd-70" value="impute missing values" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1290" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="vTsSiwtrTpE9aTX-kytd-72" value="create new features" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1450" width="150" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-75" target="vTsSiwtrTpE9aTX-kytd-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -150,24 +144,33 @@
         <mxCell id="vTsSiwtrTpE9aTX-kytd-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-78" target="vTsSiwtrTpE9aTX-kytd-80">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vTsSiwtrTpE9aTX-kytd-78" value="Preprocessing pipeline" style="swimlane;horizontal=0;" vertex="1" parent="1">
-          <mxGeometry x="314" y="1280" width="200" height="260" as="geometry" />
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-78" value="Preprocessing pipeline" style="swimlane;horizontal=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="313" y="1260" width="200" height="230" as="geometry" />
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-71" value="scale the data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vTsSiwtrTpE9aTX-kytd-78">
-          <mxGeometry x="36" y="90" width="150" height="60" as="geometry" />
+          <mxGeometry x="36" y="80" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-70" value="impute missing values" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vTsSiwtrTpE9aTX-kytd-78">
+          <mxGeometry x="36" y="10" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-72" value="create new features" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vTsSiwtrTpE9aTX-kytd-78">
+          <mxGeometry x="36" y="150" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-80" target="vTsSiwtrTpE9aTX-kytd-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-80" value="Model" style="swimlane;" vertex="1" parent="1">
-          <mxGeometry x="313" y="1554" width="200" height="116" as="geometry" />
+          <mxGeometry x="267" y="1554" width="292" height="116" as="geometry" />
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-39" value="Test naive model" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="vTsSiwtrTpE9aTX-kytd-80">
           <mxGeometry x="17" y="36" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-144" value="ML models" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="vTsSiwtrTpE9aTX-kytd-80">
+          <mxGeometry x="157" y="36" width="120" height="60" as="geometry" />
+        </mxCell>
         <UserObject label="Sklearn dummy" link="https://scikit-learn.org/stable/modules/classes.html#module-sklearn.dummy" id="vTsSiwtrTpE9aTX-kytd-62">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-            <mxGeometry x="170" y="1590" width="120" height="60" as="geometry" />
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+            <mxGeometry x="133" y="1590" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-39" target="vTsSiwtrTpE9aTX-kytd-62">
@@ -260,8 +263,8 @@
         <mxCell id="vTsSiwtrTpE9aTX-kytd-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-141" target="vTsSiwtrTpE9aTX-kytd-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vTsSiwtrTpE9aTX-kytd-141" value="Choose metric" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="560" y="1640" width="150" height="60" as="geometry" />
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-141" value="Choose metric" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="558" y="1710" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
