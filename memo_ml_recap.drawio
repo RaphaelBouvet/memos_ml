@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T10:03:49.853Z" agent="5.0 (X11)" etag="uPfjQJHhXjMbuNqz_A_4" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-08T10:17:21.643Z" agent="5.0 (X11)" etag="lxb2zrxW4Lo5AISFX80l" version="19.0.2" type="github">
   <diagram id="t-oJXe_NNOPs2yRI83mc" name="Page-1">
-    <mxGraphModel dx="3015" dy="1262" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2858" dy="1171" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,6 +116,9 @@
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-48" value="Step 3 " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-50" target="vTsSiwtrTpE9aTX-kytd-138">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-50" value="Train test split" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="200" y="820" width="450" height="60" as="geometry" />
@@ -250,6 +253,15 @@
         </mxCell>
         <mxCell id="vTsSiwtrTpE9aTX-kytd-136" value="Deployed model" style="swimlane;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="253" y="2330" width="367" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-138" value="Stratification" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="730" y="820" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="vTsSiwtrTpE9aTX-kytd-141" target="vTsSiwtrTpE9aTX-kytd-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vTsSiwtrTpE9aTX-kytd-141" value="Choose metric" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1640" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
