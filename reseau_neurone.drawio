@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-15T07:50:12.008Z" agent="5.0 (X11)" etag="Jz0m4t-I3UPfvDKbkWJD" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-15T11:01:50.468Z" agent="5.0 (X11)" etag="B-YJjaLXwipw4M-iT-1c" version="20.0.1" type="github">
   <diagram id="lp4DYYduYNcrfLK_OYbS" name="Page-1">
     <mxGraphModel dx="1673" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
             <mxPoint x="340" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ss7N3K07TZrPG119x-rG-41" value="Chaque connection à un poids w associé" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Ss7N3K07TZrPG119x-rG-41" value="Weight for each connection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="750" y="230" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ss7N3K07TZrPG119x-rG-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ss7N3K07TZrPG119x-rG-42" target="Ss7N3K07TZrPG119x-rG-43">
@@ -184,7 +184,7 @@
         <mxCell id="Ss7N3K07TZrPG119x-rG-43" value="Calcul erreur" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="645" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ss7N3K07TZrPG119x-rG-45" value="Backpropagation" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ss7N3K07TZrPG119x-rG-45" value="Backpropagation" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="845" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ss7N3K07TZrPG119x-rG-47" value="Regression =&amp;gt; MSE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -195,6 +195,9 @@
         </mxCell>
         <mxCell id="Ss7N3K07TZrPG119x-rG-51" value="&lt;div&gt;As many as needed output:&lt;/div&gt;&lt;div&gt;for multiclass &amp;gt; 1 output per class&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ss7N3K07TZrPG119x-rG-53" value="Bias for each neuron" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="305" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
