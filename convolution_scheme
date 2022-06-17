@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-17T12:45:36.756Z" agent="5.0 (X11)" etag="6Z-HjBxeNUdn1FeNRIXh" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T14:34:06.322Z" agent="5.0 (X11)" etag="F_8pJs7YR16RTMJGT8DK" version="20.0.1" type="github">
   <diagram id="aqVkDO8zBtQ_Pt60c4gu" name="Page-1">
     <mxGraphModel dx="1422" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -182,7 +182,7 @@
             <mxPoint x="1400" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CZfdzcRnSWPZwtCpYGzS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cGnxHGNuVoLv3po-Lqku-60" target="CZfdzcRnSWPZwtCpYGzS-1">
+        <mxCell id="CZfdzcRnSWPZwtCpYGzS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="cGnxHGNuVoLv3po-Lqku-60" target="CZfdzcRnSWPZwtCpYGzS-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cGnxHGNuVoLv3po-Lqku-60" value="filters = 12" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -223,13 +223,13 @@
             <mxPoint x="1385" y="395" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cGnxHGNuVoLv3po-Lqku-74" value="7*7*64*12 = &lt;span id=&quot;cwos&quot; class=&quot;qv3Wpe&quot;&gt;37632&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="cGnxHGNuVoLv3po-Lqku-74" value="7*7*12 = 588&lt;span id=&quot;cwos&quot; class=&quot;qv3Wpe&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="670" width="610" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cGnxHGNuVoLv3po-Lqku-76" value="Flatten" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1200" y="590" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CZfdzcRnSWPZwtCpYGzS-1" value="Les filtres s&#39;appliquent sur tout les channels par défaut" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="CZfdzcRnSWPZwtCpYGzS-1" value="Les filtres s&#39;appliquent sur tout les channels par défaut" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="990" y="60" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
