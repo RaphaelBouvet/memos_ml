@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T11:55:29.626Z" agent="5.0 (X11)" version="20.0.1" etag="DN9WOZkIlRTAtCL35h8C" type="github"><diagram id="OlCiXSZS90UHVb0YrOjZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-19T13:53:14.451Z" agent="5.0 (X11)" etag="t8oGww-hvpR7-alVBpfg" version="20.0.1" type="github">
+  <diagram id="OlCiXSZS90UHVb0YrOjZ" name="Page-1">
+    <mxGraphModel dx="1422" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-1Emj_If-4s19Al1ARjJ-1" target="-1Emj_If-4s19Al1ARjJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-1Emj_If-4s19Al1ARjJ-1" target="-1Emj_If-4s19Al1ARjJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-1" value="train/test split" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-2" value="split accross time but the data has to be stationary (pattern observed in the past should also be present in the future)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="130" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-4" value="Methodology" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-1Emj_If-4s19Al1ARjJ-5" target="-1Emj_If-4s19Al1ARjJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-1Emj_If-4s19Al1ARjJ-5" target="-1Emj_If-4s19Al1ARjJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-5" value="fit naive model" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-7" value="fit prophet " style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-1Emj_If-4s19Al1ARjJ-9" value="Fit arima" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="365" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
